@@ -1,0 +1,150 @@
+h2 {
+    color: orange;
+    text-shadow: 2px 2px lightgray;
+}
+
+h1 {
+  text-shadow: -2px -2px 0 #ccc, 2px -2px #ccc, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
+  position: relative;
+}
+
+body {
+
+  background-image: url(/assets/images/seigaiha.jpg);
+}
+
+#h3Outline{
+    text-shadow: -1.5px -1.5px 0 silver,
+    1.5px -1.5px silver,
+    -1.5px 1.5px 0 silver,
+    1.5px 1.5px 0 silver;
+    position: relative;
+}
+
+.StartButton {
+  background-color: red;
+  border-radius: 15px; 
+  border: 2px solid black; 
+  color: white; 
+  padding: 5px 10px; 
+  text-align: center; 
+  display: inline-block; 
+  font-size: 15px; 
+  margin: 10px 30px; 
+  cursor: pointer; 
+}
+.inner-Div {
+
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.bioImage {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.portfolioImages {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.portfolioCaptions {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+[class*="col-"] {        
+    width: 100%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+.jumboHeaderImg {
+ background-color: orange;
+}
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
