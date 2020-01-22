@@ -1,16 +1,11 @@
-h2 {
-    color: orange;
-    text-shadow: 2px 2px lightgray;
-}
 
 h1 {
-  text-shadow: -2px -2px 0 #ccc, 2px -2px #ccc, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
+  text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
   position: relative;
 }
 
 body {
-
-  background-image: url(/assets/images/seigaiha.jpg);
+  background-image: url(/assets/images/background.jpg);
 }
 
 #h3Outline{
@@ -26,10 +21,8 @@ body {
   border-radius: 15px; 
   border: 2px solid black; 
   color: white; 
-  padding: 5px 10px; 
-  text-align: center; 
-  display: inline-block; 
-  font-size: 15px; 
+  justify-content: center; 
+  font-size: 55px; 
   margin: 10px 30px; 
   cursor: pointer; 
 }
@@ -39,35 +32,6 @@ body {
     padding: 10px;
     background-color: white;
     margin: 0 auto;
-}
-
-.bioImage {
-    height: 200px;
-    width: 200px;
-    float: left;
-    padding: 15px;
-    border-radius: 50%;
-}
-
-.portfolioImages {
-  width: 200px;
-  border-radius: 50%;
-}
-
-.portfolioCaptions {
-  position: relative;
-  text-align: center;
-  color: black;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 10px;
-  width: 100%;
 }
 footer {
     position: fixed;
@@ -117,15 +81,17 @@ footer {
     cursor: pointer;
     float: right;
   }
-  
-  input[type=submit]:hover {
-    background-color: white;
-  }
-  
+
   .container {
     padding: 15px;
   }
-  
+
+  .textBox {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+
   .col-25 {
     float: left;
     width: 25%;
@@ -137,10 +103,16 @@ footer {
     width: 75%;
     margin-top: 6px;
   }
-  
+
 .jumboHeaderImg {
- background-color: orange;
+  background: none;
+  background-image: url(/assets/images/logo.png);
+   background-size: 30%;
+   background-repeat: no-repeat;
+   text-align: center;
+
 }
+
   
   @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
