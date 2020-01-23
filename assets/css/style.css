@@ -6,6 +6,13 @@ h1 {
 
 body {
   background-image: url(/assets/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instructions{
+  width: 100%;
+  padding: 10px;
 }
 
 #h3Outline{
@@ -14,6 +21,12 @@ body {
     -1.5px 1.5px 0 silver,
     1.5px 1.5px 0 silver;
     position: relative;
+}
+
+.clapTrap {
+    float: right;
+    width: -100%;
+    height: auto;
 }
 
 .StartButton {
