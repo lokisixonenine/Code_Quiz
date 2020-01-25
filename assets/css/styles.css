@@ -1,12 +1,14 @@
 /* existing CSS below. */
 
 h1 {
-  text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
+  text-shadow: -2px -2px 0 #ccc, 2px -2px #ccc, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
   position: relative;
+    font-family: "bangers",
+    cursive;
 }
 
 body {
-  background-image: url(assets/images/background.jpg);
+  background-image: url(/assets/images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -22,14 +24,30 @@ body {
     -1.5px 1.5px 0 silver,
     1.5px 1.5px 0 silver;
   position: relative;
+    font-family: "bangers",
+    cursive;
 }
 
 .clapTrap {
+  position: inherit;
   float: right;
   width: -100%;
   height: auto;
+
 }
 
+#clapMusic {
+  position: inherit;
+  float: right;
+  padding: 5px;
+  color: white;
+  font-family: "bangers", cursive;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
 
 .inner-Div {
 
@@ -97,7 +115,14 @@ input[type=submit] {
 .textBox {
   padding: 15px;
   background: rgba(0, 0, 0, 0.6);
-  color: #fff;
+  color: silver;
+  font-size: 25px;
+ font-family: 'Bebas Neue',
+ cursive;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 
 .col-25 {
@@ -114,7 +139,7 @@ input[type=submit] {
 
 .jumboHeaderImg {
   background: none;
-  background-image: url(assets/images/logo.png);
+  background-image: url(/assets/images/logo.png);
   background-size: 30%;
   background-repeat: no-repeat;
   text-align: center;
@@ -124,8 +149,12 @@ input[type=submit] {
 .startButton {
   background-color: red;
   color: white;
-  font-family: 'roboto',
-    sans-serif;
+    font-family: "bangers",
+    cursive;
+      text-shadow: -2px -2px 0 #000,
+      2px -2px #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000;
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
@@ -133,11 +162,20 @@ input[type=submit] {
   width: auto;
 }
 
+#startHere {
+  color: black;
+  font-family: "bangers", cursive;
+  text-shadow: -2px -2px 0 #ccc,
+  2px -2px #ccc,
+  -2px 2px 0 #ccc,
+  2px 2px 0 #ccc;
+}
+
 .tryAgainButton {
   background-color: blue;
   color: white;
-  font-family: 'roboto',
-    sans-serif;
+  font-family: "bangers",
+    cursive;
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
@@ -147,7 +185,12 @@ input[type=submit] {
 .answerButtons {
   background-color: orange;
   color: black;
-  font-family: 'roboto', sans-serif;
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+    text-shadow: -1px -1px 0 #ccc,
+    1px -1px #ccc,
+    -1px 1px 0 #ccc,
+    1px 1px 0 #ccc;
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
@@ -157,22 +200,40 @@ input[type=submit] {
 #quizHeadings {
   text-align: center;
   font-size: 30px;
-  font-family: 'roboto', sans-serif;
+  font-family: 'bangers', cursive;
+    text-shadow: -5px -5px 0 #000,
+    5px -5px #000,
+    -5px 5px 0 #000,
+    5px 5px 0 #000;
 }
 
 #quizText {
   text-align: left;
-  font-size: 20px;
-  font-family: 'roboto', sans-serif;
+  font-size: 65px;
+  font-family: 'bangers', cursive;
+    text-shadow: -5px -5px 0 #000,
+    5px -5px #000,
+    -5px 5px 0 #000,
+    5px 5px 0 #000;
 }
 
 #correctAnswer {
   color: green;
+  font-size: 40px;
+  text-shadow: -5px -5px 0 #000,
+  5px -5px #000,
+  -5px 5px 0 #000,
+  5px 5px 0 #000;
 
 }
 
 #wrongAnswer {
   color: red;
+  font-size: 50px;
+  text-shadow: -5px -5px 0 #000,
+  5px -5px #000,
+  -5px 5px 0 #000,
+  5px 5px 0 #000;
 }
 
 @media screen and (max-width: 600px) {

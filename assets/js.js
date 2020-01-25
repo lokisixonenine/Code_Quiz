@@ -52,6 +52,7 @@ var n = 0;
 n++;
 var s = 0;
 s++;
+var t = 150;
 
 //setting functions to hide initial div that starts the game when clicked and functions that track score and determine if a user's answers are correct/incorrect 
 
@@ -75,6 +76,8 @@ function q1c() {
     nextQuestion.innerHTML = "<button class=tryAgainButton onclick=new002()>Next</button>";
     userScore.innerHTML = s++;
 }
+
+
 
 function q1i() {
     userAnswer1.innerHTML = "<div id=wrongAnswer>" + i[0] + "</div>";
@@ -365,6 +368,26 @@ function end001() {
     nextQuestion.innerHTML = "<div id=quizHeadings>" + "<button class=tryAgainButton onclick=repeat001()>Try again ice cream licker!!</button>" + "</div>";
     userAnswer1.innerHTML = "";
 }
+
+//timer function starts here
+function gameTime() {
+    t = t -1;
+    if (t < 150) {
+        gameTimer.innerHTML = t;
+    }
+}
+    if (t <1){
+        window.clearInterval(update);
+        nextQuestion.innerHTML = "game over";
+        nextQuestion.innerHTML = "";
+        userAnswer1.innerHTML = "";
+        
+    }
+
+update = setInterval("gameTime()", 1000); //sets the interval for 1000 msecs
+
+//this section holds the mp3's
+
 
 
 //function to reset the game, in case user wants more insults
