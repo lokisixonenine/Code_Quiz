@@ -378,17 +378,10 @@ function gameTime() {
 }
     if (t <1){
         window.clearInterval(update);
-        nextQuestion.innerHTML = "game over";
-        nextQuestion.innerHTML = "";
-        userAnswer1.innerHTML = "";
-        
+        nextQuestion.innerHTML = "game over";   
     }
 
 update = setInterval("gameTime()", 1000); //sets the interval for 1000 msecs
-
-//this section holds the mp3's
-
-
 
 //function to reset the game, in case user wants more insults
 
