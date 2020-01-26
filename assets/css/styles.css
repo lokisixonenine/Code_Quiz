@@ -1,6 +1,7 @@
-/* existing CSS below. */
 
 h1 {
+  color: black;
+  font-size: 45px;
   text-shadow: -2px -2px 0 #ccc, 2px -2px #ccc, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
   position: relative;
     font-family: "bangers",
@@ -93,25 +94,6 @@ textarea {
   resize: vertical;
 }
 
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: white;
-  color: black;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-.container {
-  padding: 15px;
-}
-
 .textBox {
   padding: 15px;
   background: rgba(0, 0, 0, 0.6);
@@ -123,18 +105,6 @@ input[type=submit] {
   1px -1px #000,
   -1px 1px 0 #000,
   1px 1px 0 #000;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
 }
 
 .jumboHeaderImg {
