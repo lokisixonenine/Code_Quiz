@@ -78,7 +78,6 @@ function q1c() {
 }
 
 
-
 function q1i() {
     userAnswer1.innerHTML = "<div id=wrongAnswer>" + i[0] + "</div>";
     answer1.innerHTML = "";
@@ -374,10 +373,10 @@ function gameTime() {
     t = t -1;
     if (t < 150) {
         gameTimer.innerHTML = t;
-    }
-}
-    if (t <1){
+    }    if (t <1){
         window.clearInterval(update);
+}
+
     }
 
 update = setInterval("gameTime()", 1000); //sets the interval for 1000 msecs
