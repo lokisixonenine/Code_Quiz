@@ -52,7 +52,7 @@ var n = 0;
 n++;
 var s = 0;
 s++;
-var t = 15;
+var t = 60;
 
 //setting functions to hide initial div that starts the game when clicked and functions that track score and determine if a user's answers are correct/incorrect 
 
@@ -372,7 +372,7 @@ function end001() {
 //timer function starts here
 function gameTime() {
     t = t -1;
-    if (t < 15) {
+    if (t < 60) {
         gameTimer.innerHTML = t;
     }
     if (t <1){
