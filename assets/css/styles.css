@@ -9,7 +9,7 @@ h1 {
 }
 
 body {
-  background-image: url(github.com/lokisixonenine/Code_Quiz/tree/master/assets/images/background.jpg);
+  background-image: url(assets/images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -94,7 +94,7 @@ textarea {
 
 .jumboHeaderImg {
   background: none;
-  background-image: url(github.com/lokisixonenine/Code_Quiz/tree/master/assets/images/logo.png);
+  background-image: url(assets/images/logo.png);
   background-size: 30%;
   background-repeat: no-repeat;
   text-align: center;
