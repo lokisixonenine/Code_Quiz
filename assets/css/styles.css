@@ -9,8 +9,7 @@ h1 {
 }
 
 body {
-  background-image: url(/assets/images/background.jpg);
-  background-image: url(assets/images/background.jpg);
+  background-image: url(https://gator4106.hostgator.com:2083/cpsess3728206419/viewer/home1%2floki%2fpublic_html%2fassets%2fimages/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -95,8 +94,7 @@ textarea {
 
 .jumboHeaderImg {
   background: none;
-  background-image: url(/assets/images/logo.png);
-  background-image: url(assets/images/logo.png);
+  background-image: url(https://gator4106.hostgator.com:2083/cpsess3728206419/viewer/home1%2floki%2fpublic_html%2fassets%2fimages/logo.png);
   background-size: 30%;
   background-repeat: no-repeat;
   text-align: center;
