@@ -1,0 +1,210 @@
+
+h1 {
+  color: black;
+  font-size: 45px;
+  text-shadow: -2px -2px 0 #ccc, 2px -2px #ccc, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
+  position: relative;
+    font-family: "bangers",
+    cursive;
+}
+
+body {
+  background-image: url(https://gator4106.hostgator.com:2083/cpsess3728206419/viewer/home1%2floki%2fpublic_html%2fassets%2fimages/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instructions {
+  width: 100%;
+  padding: 10px;
+}
+
+#h3Outline {
+  text-shadow: -1.5px -1.5px 0 silver,
+    1.5px -1.5px silver,
+    -1.5px 1.5px 0 silver,
+    1.5px 1.5px 0 silver;
+  position: relative;
+    font-family: "bangers",
+    cursive;
+}
+
+.clapTrap {
+  position: inherit;
+  float: right;
+  width: -100%;
+  height: auto;
+
+}
+
+#clapMusic {
+  position: inherit;
+  float: right;
+  padding: 5px;
+  color: white;
+  font-family: "bangers", cursive;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.inner-Div {
+
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.textBox {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  color: silver;
+  font-size: 25px;
+ font-family: 'Bebas Neue',
+ cursive;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.jumboHeaderImg {
+  background: none;
+  background-image: url(https://gator4106.hostgator.com:2083/cpsess3728206419/viewer/home1%2floki%2fpublic_html%2fassets%2fimages/logo.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+.startButton {
+  background-color: red;
+  color: white;
+    font-family: "bangers",
+    cursive;
+      text-shadow: -2px -2px 0 #000,
+      2px -2px #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  height: 100px;
+  width: auto;
+}
+
+#startHere {
+  color: black;
+  font-family: "bangers", cursive;
+  text-shadow: -2px -2px 0 #ccc,
+  2px -2px #ccc,
+  -2px 2px 0 #ccc,
+  2px 2px 0 #ccc;
+}
+
+.tryAgainButton {
+  background-color: blue;
+  color: white;
+  font-family: "bangers",
+    cursive;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+
+
+.answerButtons {
+  background-color: orange;
+  color: black;
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+    text-shadow: -1px -1px 0 #ccc,
+    1px -1px #ccc,
+    -1px 1px 0 #ccc,
+    1px 1px 0 #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+
+#quizHeadings {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'bangers', cursive;
+    text-shadow: -5px -5px 0 #000,
+    5px -5px #000,
+    -5px 5px 0 #000,
+    5px 5px 0 #000;
+}
+
+#quizText {
+  text-align: left;
+  font-size: 65px;
+  font-family: 'bangers', cursive;
+    text-shadow: -5px -5px 0 #000,
+    5px -5px #000,
+    -5px 5px 0 #000,
+    5px 5px 0 #000;
+}
+
+#correctAnswer {
+  color: green;
+  font-size: 40px;
+  text-shadow: -5px -5px 0 #000,
+  5px -5px #000,
+  -5px 5px 0 #000,
+  5px 5px 0 #000;
+
+}
+
+#wrongAnswer {
+  color: red;
+  font-size: 50px;
+  text-shadow: -5px -5px 0 #000,
+  5px -5px #000,
+  -5px 5px 0 #000,
+  5px 5px 0 #000;
+}
+
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

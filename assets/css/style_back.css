@@ -1,0 +1,186 @@
+/* existing CSS below. */
+
+h1 {
+  text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
+  position: relative;
+}
+
+body {
+  background-image: url(assets/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instructions {
+  width: 100%;
+  padding: 10px;
+}
+
+#h3Outline {
+  text-shadow: -1.5px -1.5px 0 silver,
+    1.5px -1.5px silver,
+    -1.5px 1.5px 0 silver,
+    1.5px 1.5px 0 silver;
+  position: relative;
+}
+
+.clapTrap {
+  float: right;
+  width: -100%;
+  height: auto;
+}
+
+
+.inner-Div {
+
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.container {
+  padding: 15px;
+}
+
+.textBox {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.jumboHeaderImg {
+  background: none;
+  background-image: url(assets/images/logo.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+.startButton {
+  background-color: red;
+  color: white;
+  font-family: 'roboto',
+    sans-serif;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  height: 100px;
+  width: auto;
+}
+
+.tryAgainButton {
+  background-color: blue;
+  color: white;
+  font-family: 'roboto',
+    sans-serif;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+
+.answerButtons {
+  background-color: orange;
+  color: black;
+  font-family: 'roboto', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+
+#quizHeadings {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'roboto', sans-serif;
+}
+
+#quizText {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'roboto', sans-serif;
+}
+
+#correctAnswer {
+  color: green;
+
+}
+
+#wrongAnswer {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
